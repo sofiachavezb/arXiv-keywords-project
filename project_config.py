@@ -1,0 +1,6 @@
+PROJECT_PATH = "/uhadoop2024/projects/group-5"
+DATA_PATH = f"{PROJECT_PATH}/data"
+ARXIV_DATASET_PATH = f"{DATA_PATH}/arxiv-metadata-oai-snapshot.json"
+DATASETS_PATH = f"{DATA_PATH}/datasets"
+PROCESSED_DATASET_PATH = f"{DATA_PATH}/processed"
+CATEGORIES_FILES_PATH = "/data/2024/uhadoop/projects/group-5/categories.txt"
