@@ -34,9 +34,9 @@ def split_dataset(input_path, datasets_path, categories_file_path):
     return categories
 
 # Define input and output paths from project_config.py
-input_path = project_config.ARXIV_DATASET_PATH
-datasets_path = project_config.DATASETS_PATH
-categories_file_path = project_config.CATEGORIES_FILES_PATH
+input_path = project_config.HDFS_ARXIV_DATASET_PATH
+datasets_path = project_config.HDFS_DATASETS_PATH
+categories_file_path = project_config.LFS_CATEGORIES_FILES_PATH
 
 # Split the dataset by category
 split_dataset(input_path, datasets_path, categories_file_path)
